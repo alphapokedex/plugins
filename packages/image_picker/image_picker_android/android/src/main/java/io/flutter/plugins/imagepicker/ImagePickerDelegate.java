@@ -667,7 +667,7 @@ public class ImagePickerDelegate
         intent.putExtra("android.intent.extra.USE_FRONT_CAMERA", true);
       }
     } else {
-      intent.putExtra("android.intent.extras.CAMERA_FACING", 1);
+      intent.putExtra("android.intent.extras.CAMERA_FACING", android.hardware.Camera.CameraInfo.CAMERA_FACING_FRONT);
     }
   }
 }
