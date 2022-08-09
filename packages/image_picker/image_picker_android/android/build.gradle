@@ -26,6 +26,7 @@ android {
 
     defaultConfig {
         minSdkVersion 16
+        multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
